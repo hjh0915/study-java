@@ -20,7 +20,7 @@ public class Board extends JPanel implements ActionListener {
 
     private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300; //边框大小
-    private final int DOT_SIZE = 10; //苹果大小
+    private final int DOT_SIZE = 10; //苹果和蛇的点的大小
     private final int ALL_DOTS = 900; //最大的边框中的点的数量限度
     private final int RAND_POS = 29; //一个苹果的随机位置
     private final int DELAY = 140; //游戏速度
